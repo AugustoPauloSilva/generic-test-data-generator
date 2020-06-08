@@ -60,7 +60,7 @@ public class Operations {
 	 * 
 	 * **/
 	
-	public int divison(int a, int b) {
+	public int division(int a, int b) {
 		if (a > 1508 && a < 5500) {
 			return a;
 		} else {

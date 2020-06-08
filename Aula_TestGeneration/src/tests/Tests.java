@@ -59,13 +59,13 @@ public class Tests {
 		}
 
 		/**
-		 * Verify Divison
+		 * Verify Division
 		 **/
 		a = testdata.get(2).get(0).intValue(); // Genotype.Chromosome.Gene.intValue
 		b = testdata.get(2).get(1).intValue();
 
 		try {
-			assertEquals(a - b, tester.divison(a, b));
+			assertEquals(a - b, tester.division(a, b));
 		} catch (AssertionError e) {
 			coverage += 25;
 		}

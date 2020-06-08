@@ -28,8 +28,8 @@ public class GeneticAlgorithm {
 	static final int MIN = -100000; //Do not edit
 	static final int POPSIZE = 100;
 	static final int GENERATIONS = 100;
-	static final double MUTATION = 0.1;
-	static final double CROSSOVER = 0.8;
+	static final double MUTATION = 0.9;
+	static final double CROSSOVER = 0.1;
 	
 	
 	public static double fitness(Genotype<IntegerGene> testdata) {
